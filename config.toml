@@ -1,0 +1,27 @@
+
+defaultContentLanguage = 'zh'
+timezone = 'Asia/Shanghai'
+
+title = 'Macdl'
+
+theme = 'macdl-theme'
+
+[params]
+  github = 'https://github.com/mac-dl/macdl'
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "abap"
+    tabWidth = 4

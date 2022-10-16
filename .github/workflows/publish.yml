@@ -1,0 +1,29 @@
+name: Publish
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup timezone
+        uses: zcong1993/setup-timezone@master
+        with:
+          timezone: Asia/Shanghai
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.91.2"
+      - name: Build
+        run: hugo --minify
+      - name: Upload Tencent COS
+        uses: zkqiang/tencent-cos-action@v0.1.0
+        with:
+          args: delete -r -f / && upload -r ./public/ /
+          secret_id: ${{ secrets.COS_SECRET_ID }}
+          secret_key: ${{ secrets.COS_SECRET_KEY }}
+          bucket: ${{ secrets.COS_BUCKET_NAME }}
+          region: ${{ secrets.COS_BUCKET_REGION }}
