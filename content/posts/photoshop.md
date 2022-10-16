@@ -1,5 +1,5 @@
 ---
-title: Sublime Text
+title: Photoshop
 date: 2022-10-16 16:47:28
 description: Adobe Photoshop，简称“PS”，是由Adobe Systems开发和发行的图像处理软件。Photoshop主要处理以像素所构成的数字图像。使用其众多的编修与绘图工具，可以有效地进行图片编辑和创造工作。PS 有很多功能，在图像、图形、文字、视频、出版等各方面都有涉及。
 ---
