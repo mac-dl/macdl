@@ -55,3 +55,6 @@ sudo chflags schg /etc/hosts
     - https://update.parallels.com/desktop/v18/appliances_arm_Monterey.xml
 - Intel
     - https://update.parallels.com/desktop/v18/appliances.xml
+
+## 来源
+[ParallelsDesktopCrack]([parallels-desktop](https://notabug.org/somebasj/ParallelsDesktopCrack))
