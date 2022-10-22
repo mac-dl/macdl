@@ -6,4 +6,5 @@ description: BetterZip是Mac上一款功能强大的Mac平台解压压缩软件,
 
 | 版本  | BigSur |  M1   | 下载地址                                         | 更新时间            |
 | :---: | :----: | :---: | ------------------------------------------------ | ------------------- |
-| 5.2  |  Yes   |  Yes  | [蓝奏网盘](https://lanzout.com/iVpN00edut8f) | 2022-10-22 18:59:31 |
+| 7.12  |  Yes   |  Yes  | [蓝奏网盘](https://lanzout.com/iRfb30edvjle) | 2022-10-22 19:09:03 |
+| 5.2  |  Yes   |  No  | [蓝奏网盘](https://lanzout.com/iVpN00edut8f) | 2022-10-22 18:59:31 |
