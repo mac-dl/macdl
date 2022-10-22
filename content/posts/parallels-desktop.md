@@ -43,6 +43,12 @@ description: Parallels Desktop for Mac 在 Mac 上运行 Windows 一款运行快
 127.0.0.1 my.parallels.com
 ```
 
+锁住 hosts
+```shell
+sudo chflags uchg /etc/hosts
+sudo chflags schg /etc/hosts
+```
+
 ## 手动安装系统
 - Apple Silicon
     - https://update.parallels.com/desktop/v18/appliances_arm.xml
