@@ -13,13 +13,13 @@ hidden: true
 - 苹果芯片：按住 Mac 上的电源按钮（10 秒钟）。然后转到“选项”。您可能需要管理员密码。
 
 ### 2. 从 “实用工具” 菜单中启动 “终端”
-<img src="https://tiku.huatu.com/cdn/pandora/img/c6c7c383-2a6e-46b0-948d-862a0f5c2612.png" alt="terminal.png" height="200px"/>
+<img src="https://tiku.huatu.com/cdn/pandora/img/c6c7c383-2a6e-46b0-948d-862a0f5c2612.png" referrerpolicy="no-referrer" alt="terminal.png" height="200px"/>
 
 ### 3. 执行关闭命令
 ```shell
 csrutil disable
 ```
-<img src="https://tiku.huatu.com/cdn/pandora/img/43cbb7da-f737-4266-ac9e-9dd5af8c86cb.png" alt="csrutil.png" height="200px"/>
+<img src="https://tiku.huatu.com/cdn/pandora/img/43cbb7da-f737-4266-ac9e-9dd5af8c86cb.png" referrerpolicy="no-referrer" alt="csrutil.png" height="200px"/>
 
 显示 `Successfully disabled System Integrity Protection.Please restart the machine for the changes to take effect.` 就是关闭成功了，然后重启计算机。
 
