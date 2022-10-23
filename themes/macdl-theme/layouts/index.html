@@ -26,9 +26,11 @@
         </a>
     </p>
     {{ range .Site.RegularPages }}
+    {{ if not .Params.hidden }}
     <p>
         <a href="{{.Permalink}}">{{.Title}}</a>
     </p>
+    {{ end }}
     {{ end }}
 
     {{ partial "lastupdate.html" . }}
