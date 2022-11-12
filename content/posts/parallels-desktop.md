@@ -1,15 +1,16 @@
 ---
 title: Parallels Desktop
-date: 2022-10-16 16:08:47
+date: 2022-11-12 10:59:18
 description: Parallels Desktop for Mac 在 Mac 上运行 Windows 一款运行快速、操作简单、功能强大的应用程序，无需重启即可在您的 Intel 或 Apple M 系列 Mac 上运行 Windows。
 ---
 
 
 ## 安装
-1. 下载并安装 [https://download.parallels.com/desktop/v18/18.0.2-53077/ParallelsDesktop-18.0.2-53077.dmg](https://download.parallels.com/desktop/v18/18.0.2-53077/ParallelsDesktop-18.0.2-53077.dmg)
+1. 下载并安装 [https://download.parallels.com/desktop/v18/18.1.0-53311/ParallelsDesktop-18.1.0-53311.dmg](https://download.parallels.com/desktop/v18/18.1.0-53311/ParallelsDesktop-18.1.0-53311.dmg)
 2. 退出帐号
-3. 下载并解压 [ParallelsDesktopCrack.zip](https://lanzout.com/ibd1U0dz6o7g)
-4. 进入解压目录执行 `chmod +x ./install.sh && sudo ./install.sh`
+3. 下载并解压 [ParallelsDesktopCrack.zip](https://465.lanzout.com/i5jjo0frfvfe)
+4. 给终端程序赋予磁盘文件的所有访问权限
+5. 使用第 4 步的终端进入解压目录执行 `chmod +x ./install.sh && sudo ./install.sh`
 
 ## 屏蔽更新 Hosts
 ```text
@@ -57,4 +58,4 @@ sudo chflags schg /etc/hosts
     - https://update.parallels.com/desktop/v18/appliances.xml
 
 ## 来源
-[ParallelsDesktopCrack]([parallels-desktop](https://notabug.org/somebasj/ParallelsDesktopCrack))
+[ParallelsDesktopCrack](https://notabug.org/somebasj/ParallelsDesktopCrack)
